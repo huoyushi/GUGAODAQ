@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/huoyushi/GUGAODAQ/main.cpp" "/Users/huoyushi/GUGAODAQ/build/CMakeFiles/DAQ.dir/main.cpp.o"
+  "/home/huoyushi/Documents/GUGAODAQ/main.cpp" "/home/huoyushi/Documents/GUGAODAQ/build/CMakeFiles/DAQ.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/huoyushi/GUGAODAQ/build/NetSocket/CMakeFiles/NetSocket.dir/DependInfo.cmake"
+  "/home/huoyushi/Documents/GUGAODAQ/build/NetSocket/CMakeFiles/NetSocket.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

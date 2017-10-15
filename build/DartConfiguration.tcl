@@ -4,20 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/huoyushi/GUGAODAQ
-BuildDirectory: /Users/huoyushi/GUGAODAQ/build
+SourceDirectory: /home/huoyushi/Documents/GUGAODAQ
+BuildDirectory: /home/huoyushi/Documents/GUGAODAQ/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: MacBook-Pro
+Site: huoyushi-ThinkCentre-M8600t-D064
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-c++
-
-# Subprojects
-LabelsForSubprojects: 
+BuildName: Linux-c++
 
 # Submission information
 IsCDash: 
@@ -36,8 +33,8 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/huoyushi/GUGAODAQ"
-MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/usr/bin/cmake" "/home/huoyushi/Documents/GUGAODAQ"
+MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -49,7 +46,7 @@ CVSCommand: CVSCOMMAND-NOTFOUND
 CVSUpdateOptions: -d -A -P
 
 # Subversion options
-SVNCommand: /usr/bin/svn
+SVNCommand: SVNCOMMAND-NOTFOUND
 SVNOptions: 
 SVNUpdateOptions: 
 
@@ -72,8 +69,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-CompilerVersion: 9.0.0.9000037
+Compiler: /usr/bin/c++
+CompilerVersion: 6.3.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

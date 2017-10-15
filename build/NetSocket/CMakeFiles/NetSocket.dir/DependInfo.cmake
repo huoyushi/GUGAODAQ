@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/huoyushi/GUGAODAQ/NetSocket/SocketClient.cpp" "/Users/huoyushi/GUGAODAQ/build/NetSocket/CMakeFiles/NetSocket.dir/SocketClient.cpp.o"
+  "/home/huoyushi/Documents/GUGAODAQ/NetSocket/SocketClient.cpp" "/home/huoyushi/Documents/GUGAODAQ/build/NetSocket/CMakeFiles/NetSocket.dir/SocketClient.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
