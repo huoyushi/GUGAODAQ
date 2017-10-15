@@ -520,32 +520,45 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-DAQ.o: DAQ.cpp.o
+#=============================================================================
+# Target rules for targets named NetSocket
 
-.PHONY : DAQ.o
+# Build rule for target.
+NetSocket: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NetSocket
+.PHONY : NetSocket
+
+# fast build rule for target.
+NetSocket/fast:
+	$(MAKE) -f NetSocket/CMakeFiles/NetSocket.dir/build.make NetSocket/CMakeFiles/NetSocket.dir/build
+.PHONY : NetSocket/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
 
 # target to build an object file
-DAQ.cpp.o:
-	$(MAKE) -f CMakeFiles/DAQ.dir/build.make CMakeFiles/DAQ.dir/DAQ.cpp.o
-.PHONY : DAQ.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/DAQ.dir/build.make CMakeFiles/DAQ.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-DAQ.i: DAQ.cpp.i
+main.i: main.cpp.i
 
-.PHONY : DAQ.i
+.PHONY : main.i
 
 # target to preprocess a source file
-DAQ.cpp.i:
-	$(MAKE) -f CMakeFiles/DAQ.dir/build.make CMakeFiles/DAQ.dir/DAQ.cpp.i
-.PHONY : DAQ.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/DAQ.dir/build.make CMakeFiles/DAQ.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-DAQ.s: DAQ.cpp.s
+main.s: main.cpp.s
 
-.PHONY : DAQ.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-DAQ.cpp.s:
-	$(MAKE) -f CMakeFiles/DAQ.dir/build.make CMakeFiles/DAQ.dir/DAQ.cpp.s
-.PHONY : DAQ.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/DAQ.dir/build.make CMakeFiles/DAQ.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -587,9 +600,10 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... DAQ.o"
-	@echo "... DAQ.i"
-	@echo "... DAQ.s"
+	@echo "... NetSocket"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

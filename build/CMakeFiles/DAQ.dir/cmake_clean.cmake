@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DAQ.dir/DAQ.cpp.o"
-  "libDAQ.pdb"
-  "libDAQ.a"
+  "CMakeFiles/DAQ.dir/main.cpp.o"
+  "DAQ.pdb"
+  "DAQ"
 )
 
 # Per-language clean rules from dependency scanning.

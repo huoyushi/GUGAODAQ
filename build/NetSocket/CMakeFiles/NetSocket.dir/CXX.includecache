@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/huoyushi/GUGAODAQ/NetSocket/SocketClient.cpp
+iostream
+-
+SocketClient.h
+/Users/huoyushi/GUGAODAQ/NetSocket/SocketClient.h
+
+/Users/huoyushi/GUGAODAQ/NetSocket/SocketClient.h
+TargetConditionals.h
+/Users/huoyushi/GUGAODAQ/NetSocket/TargetConditionals.h
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+

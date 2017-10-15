@@ -284,6 +284,18 @@ GITCOMMAND:FILEPATH=/usr/bin/git
 //Path to a program.
 HGCOMMAND:FILEPATH=HGCOMMAND-NOTFOUND
 
+//Dependencies for target
+LL.a_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+LL_BINARY_DIR:STATIC=/Users/huoyushi/GUGAODAQ/build/TestLibrary
+
+//Dependencies for target
+LL_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+LL_SOURCE_DIR:STATIC=/Users/huoyushi/GUGAODAQ/TestLibrary
+
 //Command to build the project
 MAKECOMMAND:STRING=/Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 
@@ -292,6 +304,15 @@ MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 
 //File that contains suppressions for the memory checker
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
+
+//Value Computed by CMake
+NetSocket_BINARY_DIR:STATIC=/Users/huoyushi/GUGAODAQ/build/NetSocket
+
+//Dependencies for target
+NetSocket_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+NetSocket_SOURCE_DIR:STATIC=/Users/huoyushi/GUGAODAQ/NetSocket
 
 //Path to a program.
 P4COMMAND:FILEPATH=P4COMMAND-NOTFOUND
@@ -311,6 +332,18 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 
 //Path to a program.
 SVNCOMMAND:FILEPATH=/usr/bin/svn
+
+//Dependencies for target
+TEST2.a_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+TEST2_BINARY_DIR:STATIC=/Users/huoyushi/GUGAODAQ/build/TestL2
+
+//Dependencies for target
+TEST2_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+TEST2_SOURCE_DIR:STATIC=/Users/huoyushi/GUGAODAQ/TestL2
 
 
 ########################
@@ -409,7 +442,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -32,3 +32,9 @@
 /Users/huoyushi/GUGAODAQ/build/CMakeFiles/ExperimentalMemCheck.dir
 /Users/huoyushi/GUGAODAQ/build/CMakeFiles/Continuous.dir
 /Users/huoyushi/GUGAODAQ/build/CMakeFiles/Experimental.dir
+/Users/huoyushi/GUGAODAQ/build/NetSocket/CMakeFiles/test.dir
+/Users/huoyushi/GUGAODAQ/build/NetSocket/CMakeFiles/package.dir
+/Users/huoyushi/GUGAODAQ/build/NetSocket/CMakeFiles/edit_cache.dir
+/Users/huoyushi/GUGAODAQ/build/NetSocket/CMakeFiles/rebuild_cache.dir
+/Users/huoyushi/GUGAODAQ/build/NetSocket/CMakeFiles/package_source.dir
+/Users/huoyushi/GUGAODAQ/build/NetSocket/CMakeFiles/NetSocket.dir

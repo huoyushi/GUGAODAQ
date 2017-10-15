@@ -1,7 +1,12 @@
 [
 {
   "directory": "/Users/huoyushi/GUGAODAQ/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/DAQ.dir/DAQ.cpp.o -c /Users/huoyushi/GUGAODAQ/DAQ.cpp",
-  "file": "/Users/huoyushi/GUGAODAQ/DAQ.cpp"
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/huoyushi/GUGAODAQ/NetSocket  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/DAQ.dir/main.cpp.o -c /Users/huoyushi/GUGAODAQ/main.cpp",
+  "file": "/Users/huoyushi/GUGAODAQ/main.cpp"
+},
+{
+  "directory": "/Users/huoyushi/GUGAODAQ/build/NetSocket",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DNetSocket_EXPORTS  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fPIC   -o CMakeFiles/NetSocket.dir/SocketClient.cpp.o -c /Users/huoyushi/GUGAODAQ/NetSocket/SocketClient.cpp",
+  "file": "/Users/huoyushi/GUGAODAQ/NetSocket/SocketClient.cpp"
 }
 ]

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/huoyushi/GUGAODAQ/build
 # Target rules for target CMakeFiles/DAQ.dir
 
 # All Build rule for target.
-CMakeFiles/DAQ.dir/all:
+CMakeFiles/DAQ.dir/all: NetSocket/CMakeFiles/NetSocket.dir/all
 	$(MAKE) -f CMakeFiles/DAQ.dir/build.make CMakeFiles/DAQ.dir/depend
 	$(MAKE) -f CMakeFiles/DAQ.dir/build.make CMakeFiles/DAQ.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huoyushi/GUGAODAQ/build/CMakeFiles --progress-num=1,2 "Built target DAQ"
@@ -76,7 +76,7 @@ all: CMakeFiles/DAQ.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DAQ.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huoyushi/GUGAODAQ/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huoyushi/GUGAODAQ/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DAQ.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huoyushi/GUGAODAQ/build/CMakeFiles 0
 .PHONY : CMakeFiles/DAQ.dir/rule
@@ -989,6 +989,61 @@ CMakeFiles/Experimental.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Experimental.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory NetSocket
+
+# Convenience name for "all" pass in the directory.
+NetSocket/all: NetSocket/CMakeFiles/NetSocket.dir/all
+
+.PHONY : NetSocket/all
+
+# Convenience name for "clean" pass in the directory.
+NetSocket/clean: NetSocket/CMakeFiles/NetSocket.dir/clean
+
+.PHONY : NetSocket/clean
+
+# Convenience name for "preinstall" pass in the directory.
+NetSocket/preinstall:
+
+.PHONY : NetSocket/preinstall
+
+#=============================================================================
+# Target rules for target NetSocket/CMakeFiles/NetSocket.dir
+
+# All Build rule for target.
+NetSocket/CMakeFiles/NetSocket.dir/all:
+	$(MAKE) -f NetSocket/CMakeFiles/NetSocket.dir/build.make NetSocket/CMakeFiles/NetSocket.dir/depend
+	$(MAKE) -f NetSocket/CMakeFiles/NetSocket.dir/build.make NetSocket/CMakeFiles/NetSocket.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huoyushi/GUGAODAQ/build/CMakeFiles --progress-num=3,4 "Built target NetSocket"
+.PHONY : NetSocket/CMakeFiles/NetSocket.dir/all
+
+# Include target in all.
+all: NetSocket/CMakeFiles/NetSocket.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+NetSocket/CMakeFiles/NetSocket.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huoyushi/GUGAODAQ/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 NetSocket/CMakeFiles/NetSocket.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huoyushi/GUGAODAQ/build/CMakeFiles 0
+.PHONY : NetSocket/CMakeFiles/NetSocket.dir/rule
+
+# Convenience name for target.
+NetSocket: NetSocket/CMakeFiles/NetSocket.dir/rule
+
+.PHONY : NetSocket
+
+# clean rule for target.
+NetSocket/CMakeFiles/NetSocket.dir/clean:
+	$(MAKE) -f NetSocket/CMakeFiles/NetSocket.dir/build.make NetSocket/CMakeFiles/NetSocket.dir/clean
+.PHONY : NetSocket/CMakeFiles/NetSocket.dir/clean
+
+# clean rule for target.
+clean: NetSocket/CMakeFiles/NetSocket.dir/clean
 
 .PHONY : clean
 
