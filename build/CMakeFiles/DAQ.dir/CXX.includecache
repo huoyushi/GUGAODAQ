@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 ../NetSocket/SocketClient.h
+iostream
+-
 TargetConditionals.h
 ../NetSocket/TargetConditionals.h
 sys/socket.h

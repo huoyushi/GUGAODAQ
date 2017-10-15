@@ -1,5 +1,4 @@
-#include<iostream>
-using namespace std;
+
 #include "SocketClient.h"
 void Show(){
     #ifdef __linux__

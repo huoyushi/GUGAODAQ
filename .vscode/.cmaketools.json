@@ -18,6 +18,402 @@
             "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
             "targets": [
               {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousConfigure",
+                      "build/CMakeFiles/ContinuousConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousConfigure",
+                "name": "ContinuousConfigure",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyCoverage",
+                      "build/CMakeFiles/NightlyCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyCoverage",
+                "name": "NightlyCoverage",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalUpdate",
+                      "build/CMakeFiles/ExperimentalUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalUpdate",
+                "name": "ExperimentalUpdate",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousMemCheck",
+                      "build/CMakeFiles/ContinuousMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousMemCheck",
+                "name": "ContinuousMemCheck",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousBuild",
+                      "build/CMakeFiles/ContinuousBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousBuild",
+                "name": "ContinuousBuild",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalTest",
+                      "build/CMakeFiles/ExperimentalTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalTest",
+                "name": "ExperimentalTest",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalMemCheck",
+                      "build/CMakeFiles/ExperimentalMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalMemCheck",
+                "name": "ExperimentalMemCheck",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Experimental",
+                      "build/CMakeFiles/Experimental.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Experimental",
+                "name": "Experimental",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlySubmit",
+                      "build/CMakeFiles/NightlySubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlySubmit",
+                "name": "NightlySubmit",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousSubmit",
+                      "build/CMakeFiles/ContinuousSubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousSubmit",
+                "name": "ContinuousSubmit",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "/home/huoyushi/Documents/GUGAODAQ/build/DAQ"
+                ],
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g  ",
+                    "includePath": [
+                      {
+                        "path": "/home/huoyushi/Documents/GUGAODAQ/NetSocket"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "DAQ",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "-Wl,-rpath,/home/huoyushi/Documents/GUGAODAQ/build/NetSocket -rdynamic NetSocket/libNetSocket.so",
+                "linkerLanguage": "CXX",
+                "name": "DAQ",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalConfigure",
+                      "build/CMakeFiles/ExperimentalConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalConfigure",
+                "name": "ExperimentalConfigure",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalCoverage",
+                      "build/CMakeFiles/ExperimentalCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalCoverage",
+                "name": "ExperimentalCoverage",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalBuild",
+                      "build/CMakeFiles/ExperimentalBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalBuild",
+                "name": "ExperimentalBuild",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyConfigure",
+                      "build/CMakeFiles/NightlyConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyConfigure",
+                "name": "NightlyConfigure",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyBuild",
+                      "build/CMakeFiles/NightlyBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyBuild",
+                "name": "NightlyBuild",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyStart",
+                      "build/CMakeFiles/NightlyStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyStart",
+                "name": "NightlyStart",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyMemoryCheck",
+                      "build/CMakeFiles/NightlyMemoryCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyMemoryCheck",
+                "name": "NightlyMemoryCheck",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyMemCheck",
+                      "build/CMakeFiles/NightlyMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyMemCheck",
+                "name": "NightlyMemCheck",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalStart",
+                      "build/CMakeFiles/ExperimentalStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalStart",
+                "name": "ExperimentalStart",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalSubmit",
+                      "build/CMakeFiles/ExperimentalSubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalSubmit",
+                "name": "ExperimentalSubmit",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousStart",
+                      "build/CMakeFiles/ContinuousStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousStart",
+                "name": "ContinuousStart",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousUpdate",
+                      "build/CMakeFiles/ContinuousUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousUpdate",
+                "name": "ContinuousUpdate",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Nightly",
+                      "build/CMakeFiles/Nightly.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Nightly",
+                "name": "Nightly",
+                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
                 "artifacts": [
                   "/home/huoyushi/Documents/GUGAODAQ/build/NetSocket/libNetSocket.so"
                 ],
@@ -79,134 +475,6 @@
                   {
                     "isGenerated": true,
                     "sources": [
-                      "build/CMakeFiles/ContinuousTest",
-                      "build/CMakeFiles/ContinuousTest.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousTest",
-                "name": "ContinuousTest",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/Experimental",
-                      "build/CMakeFiles/Experimental.rule"
-                    ]
-                  }
-                ],
-                "fullName": "Experimental",
-                "name": "Experimental",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/NightlySubmit",
-                      "build/CMakeFiles/NightlySubmit.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlySubmit",
-                "name": "NightlySubmit",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalSubmit",
-                      "build/CMakeFiles/ExperimentalSubmit.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalSubmit",
-                "name": "ExperimentalSubmit",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousMemCheck",
-                      "build/CMakeFiles/ContinuousMemCheck.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousMemCheck",
-                "name": "ContinuousMemCheck",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/NightlyStart",
-                      "build/CMakeFiles/NightlyStart.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyStart",
-                "name": "NightlyStart",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/NightlyMemoryCheck",
-                      "build/CMakeFiles/NightlyMemoryCheck.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyMemoryCheck",
-                "name": "NightlyMemoryCheck",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/NightlyMemCheck",
-                      "build/CMakeFiles/NightlyMemCheck.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyMemCheck",
-                "name": "NightlyMemCheck",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
                       "build/CMakeFiles/Continuous",
                       "build/CMakeFiles/Continuous.rule"
                     ]
@@ -216,162 +484,6 @@
                 "name": "Continuous",
                 "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/NightlyBuild",
-                      "build/CMakeFiles/NightlyBuild.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyBuild",
-                "name": "NightlyBuild",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousBuild",
-                      "build/CMakeFiles/ContinuousBuild.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousBuild",
-                "name": "ContinuousBuild",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalUpdate",
-                      "build/CMakeFiles/ExperimentalUpdate.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalUpdate",
-                "name": "ExperimentalUpdate",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalConfigure",
-                      "build/CMakeFiles/ExperimentalConfigure.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalConfigure",
-                "name": "ExperimentalConfigure",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalStart",
-                      "build/CMakeFiles/ExperimentalStart.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalStart",
-                "name": "ExperimentalStart",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousConfigure",
-                      "build/CMakeFiles/ContinuousConfigure.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousConfigure",
-                "name": "ContinuousConfigure",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/NightlyCoverage",
-                      "build/CMakeFiles/NightlyCoverage.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyCoverage",
-                "name": "NightlyCoverage",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousSubmit",
-                      "build/CMakeFiles/ContinuousSubmit.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousSubmit",
-                "name": "ContinuousSubmit",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "artifacts": [
-                  "/home/huoyushi/Documents/GUGAODAQ/build/DAQ"
-                ],
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "compileFlags": "-g  ",
-                    "includePath": [
-                      {
-                        "path": "/home/huoyushi/Documents/GUGAODAQ/NetSocket"
-                      }
-                    ],
-                    "isGenerated": false,
-                    "language": "CXX",
-                    "sources": [
-                      "main.cpp"
-                    ]
-                  }
-                ],
-                "fullName": "DAQ",
-                "linkLanguageFlags": "-g",
-                "linkLibraries": "-Wl,-rpath,/home/huoyushi/Documents/GUGAODAQ/build/NetSocket -rdynamic NetSocket/libNetSocket.so",
-                "linkerLanguage": "CXX",
-                "name": "DAQ",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "EXECUTABLE"
               },
               {
                 "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
@@ -395,125 +507,13 @@
                   {
                     "isGenerated": true,
                     "sources": [
-                      "build/CMakeFiles/ContinuousStart",
-                      "build/CMakeFiles/ContinuousStart.rule"
+                      "build/CMakeFiles/ContinuousTest",
+                      "build/CMakeFiles/ContinuousTest.rule"
                     ]
                   }
                 ],
-                "fullName": "ContinuousStart",
-                "name": "ContinuousStart",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousUpdate",
-                      "build/CMakeFiles/ContinuousUpdate.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousUpdate",
-                "name": "ContinuousUpdate",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalCoverage",
-                      "build/CMakeFiles/ExperimentalCoverage.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalCoverage",
-                "name": "ExperimentalCoverage",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalBuild",
-                      "build/CMakeFiles/ExperimentalBuild.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalBuild",
-                "name": "ExperimentalBuild",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/NightlyConfigure",
-                      "build/CMakeFiles/NightlyConfigure.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyConfigure",
-                "name": "NightlyConfigure",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalTest",
-                      "build/CMakeFiles/ExperimentalTest.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalTest",
-                "name": "ExperimentalTest",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalMemCheck",
-                      "build/CMakeFiles/ExperimentalMemCheck.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalMemCheck",
-                "name": "ExperimentalMemCheck",
-                "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "/home/huoyushi/Documents/GUGAODAQ/build",
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/Nightly",
-                      "build/CMakeFiles/Nightly.rule"
-                    ]
-                  }
-                ],
-                "fullName": "Nightly",
-                "name": "Nightly",
+                "fullName": "ContinuousTest",
+                "name": "ContinuousTest",
                 "sourceDirectory": "/home/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
               }
@@ -553,7 +553,7 @@
         ]
       }
     ],
-    "cookie": "0.8936341616271235",
+    "cookie": "0.6028805207892649",
     "inReplyTo": "codemodel",
     "type": "reply"
   }

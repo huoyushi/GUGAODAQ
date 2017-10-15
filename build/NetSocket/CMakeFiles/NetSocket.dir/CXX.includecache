@@ -7,12 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/huoyushi/Documents/GUGAODAQ/NetSocket/SocketClient.cpp
-iostream
--
 SocketClient.h
 /home/huoyushi/Documents/GUGAODAQ/NetSocket/SocketClient.h
 
 /home/huoyushi/Documents/GUGAODAQ/NetSocket/SocketClient.h
+iostream
+-
 TargetConditionals.h
 /home/huoyushi/Documents/GUGAODAQ/NetSocket/TargetConditionals.h
 sys/socket.h
