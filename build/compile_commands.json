@@ -1,12 +1,27 @@
 [
 {
-  "directory": "/home/huoyushi/Documents/GUGAODAQ/build",
-  "command": "/usr/bin/c++    -I/home/huoyushi/Documents/GUGAODAQ/NetSocket  -g   -o CMakeFiles/DAQ.dir/main.cpp.o -c /home/huoyushi/Documents/GUGAODAQ/main.cpp",
-  "file": "/home/huoyushi/Documents/GUGAODAQ/main.cpp"
+  "directory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   @CMakeFiles/DAQ.dir/includes_CXX.rsp -g   -o CMakeFiles\\DAQ.dir\\main.cpp.obj -c C:\\Users\\huoyushi\\Documents\\GUGAODAQ\\main.cpp",
+  "file": "C:/Users/huoyushi/Documents/GUGAODAQ/main.cpp"
 },
 {
-  "directory": "/home/huoyushi/Documents/GUGAODAQ/build/NetSocket",
-  "command": "/usr/bin/c++   -DNetSocket_EXPORTS  -g -fPIC   -o CMakeFiles/NetSocket.dir/SocketClient.cpp.o -c /home/huoyushi/Documents/GUGAODAQ/NetSocket/SocketClient.cpp",
-  "file": "/home/huoyushi/Documents/GUGAODAQ/NetSocket/SocketClient.cpp"
+  "directory": "C:/Users/huoyushi/Documents/GUGAODAQ/build/NetSocket",
+  "command": "C:\\MinGW\\bin\\g++.exe  -DNetSocket_EXPORTS @CMakeFiles/NetSocket.dir/includes_CXX.rsp -g   -o CMakeFiles\\NetSocket.dir\\SocketClient.cpp.obj -c C:\\Users\\huoyushi\\Documents\\GUGAODAQ\\NetSocket\\SocketClient.cpp",
+  "file": "C:/Users/huoyushi/Documents/GUGAODAQ/NetSocket/SocketClient.cpp"
+},
+{
+  "directory": "C:/Users/huoyushi/Documents/GUGAODAQ/build/NetSocket",
+  "command": "C:\\MinGW\\bin\\g++.exe  -DNetSocket_EXPORTS @CMakeFiles/NetSocket.dir/includes_CXX.rsp -g   -o CMakeFiles\\NetSocket.dir\\AsyncSocketClient.cpp.obj -c C:\\Users\\huoyushi\\Documents\\GUGAODAQ\\NetSocket\\AsyncSocketClient.cpp",
+  "file": "C:/Users/huoyushi/Documents/GUGAODAQ/NetSocket/AsyncSocketClient.cpp"
+},
+{
+  "directory": "C:/Users/huoyushi/Documents/GUGAODAQ/build/NetSocket",
+  "command": "C:\\MinGW\\bin\\g++.exe  -DNetSocket_EXPORTS @CMakeFiles/NetSocket.dir/includes_CXX.rsp -g   -o CMakeFiles\\NetSocket.dir\\UDPServer.cpp.obj -c C:\\Users\\huoyushi\\Documents\\GUGAODAQ\\NetSocket\\UDPServer.cpp",
+  "file": "C:/Users/huoyushi/Documents/GUGAODAQ/NetSocket/UDPServer.cpp"
+},
+{
+  "directory": "C:/Users/huoyushi/Documents/GUGAODAQ/build/JsonUtils",
+  "command": "C:\\MinGW\\bin\\g++.exe  -DJsonUtils_EXPORTS @CMakeFiles/JsonUtils.dir/includes_CXX.rsp -g   -o CMakeFiles\\JsonUtils.dir\\JsonUtils.cpp.obj -c C:\\Users\\huoyushi\\Documents\\GUGAODAQ\\JsonUtils\\JsonUtils.cpp",
+  "file": "C:/Users/huoyushi/Documents/GUGAODAQ/JsonUtils/JsonUtils.cpp"
 }
 ]

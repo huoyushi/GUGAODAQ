@@ -1,11 +1,10 @@
-cmake_minimum_required(VERSION 3.0.0)
-project(NetSocket VERSION 0.0.0)
+project(DAQ VERSION 0.0.0)
 
-include(CTest)
-enable_testing()
+link_directories(${PROJECT_SOURCE_DIR}/JsonUtils)
+add_library(NetSocket SHARED SocketClient.cpp AsyncSocketClient.cpp UDPServer.cpp)
+target_link_libraries(NetSocket JsonUtils)
+IF(WIN32)
+link_directories(C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/SDK/ScopeCppSDK/SDK/lib)
+target_link_libraries(NetSocket WS2_32.Lib)
+ENDIF(WIN32)
 
-add_library(NetSocket SHARED SocketClient.cpp)
-
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)

@@ -1,13 +1,16 @@
 {
     "files.associations": {
-        "iostream": "cpp",
-        "__locale": "cpp",
-        "__config": "cpp",
-        "__nullptr": "cpp",
-        "exception": "cpp",
         "initializer_list": "cpp",
-        "new": "cpp",
-        "stdexcept": "cpp",
-        "typeinfo": "cpp"
+        "list": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "xlocale": "cpp",
+        "ostream": "cpp",
+        "cstddef": "cpp",
+        "xiosbase": "cpp",
+        "iostream": "cpp"
     }
 }

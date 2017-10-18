@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NetSocket.dir/SocketClient.cpp.o"
-  "libNetSocket.pdb"
-  "libNetSocket.so"
+  "CMakeFiles/NetSocket.dir/SocketClient.cpp.obj"
+  "CMakeFiles/NetSocket.dir/AsyncSocketClient.cpp.obj"
+  "CMakeFiles/NetSocket.dir/UDPServer.cpp.obj"
+  "../bin/libNetSocket.pdb"
+  "../bin/libNetSocket.dll"
+  "../bin/libNetSocket.dll.a"
+  "../bin/libNetSocket.dll.manifest"
 )
 
 # Per-language clean rules from dependency scanning.

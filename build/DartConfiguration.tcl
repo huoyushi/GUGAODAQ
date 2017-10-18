@@ -4,17 +4,20 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/huoyushi/Documents/GUGAODAQ
-BuildDirectory: /home/huoyushi/Documents/GUGAODAQ/build
+SourceDirectory: C:/Users/huoyushi/Documents/GUGAODAQ
+BuildDirectory: C:/Users/huoyushi/Documents/GUGAODAQ/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: huoyushi-ThinkCentre-M8600t-D064
+Site: DESKTOP-6I38KJD
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-c++
+BuildName: Win32-mingw32-make
+
+# Subprojects
+LabelsForSubprojects: 
 
 # Submission information
 IsCDash: 
@@ -27,14 +30,14 @@ DropSitePassword:
 DropSiteMode: 
 DropMethod: http
 TriggerSite: 
-ScpCommand: /usr/bin/scp
+ScpCommand: SCPCOMMAND-NOTFOUND
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/huoyushi/Documents/GUGAODAQ"
-MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "C:/CMake/bin/cmake.exe" "C:/Users/huoyushi/Documents/GUGAODAQ"
+MakeCommand: C:/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -51,7 +54,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/bin/git
+GITCommand: C:/Program Files/Git/cmd/git.exe
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -64,12 +67,12 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/bin/git
+UpdateCommand: C:/Program Files/Git/cmd/git.exe
 UpdateOptions: 
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/c++
+Compiler: C:/MinGW/bin/g++.exe
 CompilerVersion: 6.3.0
 
 # Dynamic analysis (MemCheck)
@@ -83,7 +86,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: /usr/bin/gcov
+CoverageCommand: C:/MinGW/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Cluster commands

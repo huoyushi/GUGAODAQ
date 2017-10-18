@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,8 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../NetSocket/AsyncSocketClient.h
+SocketClient.h
 ../NetSocket/SocketClient.h
-iostream
+
+../NetSocket/SocketClient.h
+string
+-
+stdio.h
+-
+string.h
+-
+WinSock2.h
 -
 TargetConditionals.h
 ../NetSocket/TargetConditionals.h
@@ -20,7 +30,27 @@ arpa/inet.h
 unistd.h
 -
 
-/home/huoyushi/Documents/GUGAODAQ/main.cpp
+../NetSocket/UDPServer.h
+stdio.h
+-
+WinSock2.h
+-
+TargetConditionals.h
+../NetSocket/TargetConditionals.h
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+
+C:/Users/huoyushi/Documents/GUGAODAQ/main.cpp
 SocketClient.h
-/home/huoyushi/Documents/GUGAODAQ/SocketClient.h
+C:/Users/huoyushi/Documents/GUGAODAQ/SocketClient.h
+AsyncSocketClient.h
+C:/Users/huoyushi/Documents/GUGAODAQ/AsyncSocketClient.h
+UDPServer.h
+C:/Users/huoyushi/Documents/GUGAODAQ/UDPServer.h
 

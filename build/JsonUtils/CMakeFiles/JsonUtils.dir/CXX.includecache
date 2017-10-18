@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/huoyushi/Documents/GUGAODAQ/JsonUtils/JsonUtils.cpp
+JsonUtils.h
+C:/Users/huoyushi/Documents/GUGAODAQ/JsonUtils/JsonUtils.h
+
+C:/Users/huoyushi/Documents/GUGAODAQ/JsonUtils/JsonUtils.h
+string.h
+-
+
