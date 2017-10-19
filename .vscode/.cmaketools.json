@@ -24,222 +24,6 @@
                 "crossReferences": {
                   "backtrace": [
                     {
-                      "line": 58,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/Nightly",
-                      "build/CMakeFiles/Nightly.rule"
-                    ]
-                  }
-                ],
-                "fullName": "Nightly",
-                "name": "Nightly",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalBuild",
-                      "build/CMakeFiles/ExperimentalBuild.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalBuild",
-                "name": "ExperimentalBuild",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/NightlyStart",
-                      "build/CMakeFiles/NightlyStart.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyStart",
-                "name": "NightlyStart",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
                       "line": 74,
                       "name": "add_custom_target",
                       "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
@@ -369,6 +153,78 @@
                   {
                     "isGenerated": true,
                     "sources": [
+                      "build/CMakeFiles/Nightly",
+                      "build/CMakeFiles/Nightly.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Nightly",
+                "name": "Nightly",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 58,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
                       "build/CMakeFiles/Continuous",
                       "build/CMakeFiles/Continuous.rule"
                     ]
@@ -376,6 +232,78 @@
                 ],
                 "fullName": "Continuous",
                 "name": "Continuous",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 58,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Experimental",
+                      "build/CMakeFiles/Experimental.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Experimental",
+                "name": "Experimental",
                 "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
               },
@@ -585,13 +513,13 @@
                   {
                     "isGenerated": true,
                     "sources": [
-                      "build/CMakeFiles/Experimental",
-                      "build/CMakeFiles/Experimental.rule"
+                      "build/CMakeFiles/NightlyMemoryCheck",
+                      "build/CMakeFiles/NightlyMemoryCheck.rule"
                     ]
                   }
                 ],
-                "fullName": "Experimental",
-                "name": "Experimental",
+                "fullName": "NightlyMemoryCheck",
+                "name": "NightlyMemoryCheck",
                 "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
               },
@@ -600,7 +528,7 @@
                 "crossReferences": {
                   "backtrace": [
                     {
-                      "line": 58,
+                      "line": 74,
                       "name": "add_custom_target",
                       "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
                     },
@@ -657,13 +585,85 @@
                   {
                     "isGenerated": true,
                     "sources": [
-                      "build/CMakeFiles/NightlyMemoryCheck",
-                      "build/CMakeFiles/NightlyMemoryCheck.rule"
+                      "build/CMakeFiles/ExperimentalBuild",
+                      "build/CMakeFiles/ExperimentalBuild.rule"
                     ]
                   }
                 ],
-                "fullName": "NightlyMemoryCheck",
-                "name": "NightlyMemoryCheck",
+                "fullName": "ExperimentalBuild",
+                "name": "ExperimentalBuild",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyStart",
+                      "build/CMakeFiles/NightlyStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyStart",
+                "name": "NightlyStart",
                 "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
               },
@@ -908,150 +908,6 @@
                   {
                     "isGenerated": true,
                     "sources": [
-                      "build/CMakeFiles/NightlyConfigure",
-                      "build/CMakeFiles/NightlyConfigure.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyConfigure",
-                "name": "NightlyConfigure",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalTest",
-                      "build/CMakeFiles/ExperimentalTest.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalTest",
-                "name": "ExperimentalTest",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
                       "build/CMakeFiles/ExperimentalUpdate",
                       "build/CMakeFiles/ExperimentalUpdate.rule"
                     ]
@@ -1059,668 +915,6 @@
                 ],
                 "fullName": "ExperimentalUpdate",
                 "name": "ExperimentalUpdate",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousBuild",
-                      "build/CMakeFiles/ContinuousBuild.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousBuild",
-                "name": "ContinuousBuild",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "artifacts": [
-                  "C:/Users/huoyushi/Documents/GUGAODAQ/build/bin/DAQ.exe",
-                  "C:/Users/huoyushi/Documents/GUGAODAQ/build/bin/libDAQ.dll.a",
-                  "C:/Users/huoyushi/Documents/GUGAODAQ/build/bin/DAQ.pdb"
-                ],
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 10,
-                      "name": "add_executable",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 11,
-                          "name": "target_link_libraries",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_link_libraries"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "compileFlags": "-g  ",
-                    "includePath": [
-                      {
-                        "path": "C:/Users/huoyushi/Documents/GUGAODAQ/NetSocket"
-                      },
-                      {
-                        "path": "C:/Users/huoyushi/Documents/GUGAODAQ/JsonUtils"
-                      }
-                    ],
-                    "isGenerated": false,
-                    "language": "CXX",
-                    "sources": [
-                      "main.cpp"
-                    ]
-                  }
-                ],
-                "fullName": "DAQ.exe",
-                "linkLanguageFlags": "-g",
-                "linkLibraries": "bin\\libNetSocket.dll.a bin\\libJsonUtils.dll.a -lWS2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-                "linkerLanguage": "CXX",
-                "name": "DAQ",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "EXECUTABLE"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalStart",
-                      "build/CMakeFiles/ExperimentalStart.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalStart",
-                "name": "ExperimentalStart",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousStart",
-                      "build/CMakeFiles/ContinuousStart.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousStart",
-                "name": "ContinuousStart",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousCoverage",
-                      "build/CMakeFiles/ContinuousCoverage.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousCoverage",
-                "name": "ContinuousCoverage",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalSubmit",
-                      "build/CMakeFiles/ExperimentalSubmit.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalSubmit",
-                "name": "ExperimentalSubmit",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ContinuousUpdate",
-                      "build/CMakeFiles/ContinuousUpdate.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ContinuousUpdate",
-                "name": "ContinuousUpdate",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalMemCheck",
-                      "build/CMakeFiles/ExperimentalMemCheck.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalMemCheck",
-                "name": "ExperimentalMemCheck",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
-                      "build/CMakeFiles/ExperimentalCoverage",
-                      "build/CMakeFiles/ExperimentalCoverage.rule"
-                    ]
-                  }
-                ],
-                "fullName": "ExperimentalCoverage",
-                "name": "ExperimentalCoverage",
                 "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
               },
@@ -1858,78 +1052,6 @@
                   {
                     "isGenerated": true,
                     "sources": [
-                      "build/CMakeFiles/NightlyCoverage",
-                      "build/CMakeFiles/NightlyCoverage.rule"
-                    ]
-                  }
-                ],
-                "fullName": "NightlyCoverage",
-                "name": "NightlyCoverage",
-                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
-                "type": "UTILITY"
-              },
-              {
-                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
-                "crossReferences": {
-                  "backtrace": [
-                    {
-                      "line": 74,
-                      "name": "add_custom_target",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
-                    },
-                    {
-                      "line": 264,
-                      "name": "include",
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
-                    },
-                    {
-                      "line": 4,
-                      "name": "include",
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    },
-                    {
-                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                    }
-                  ],
-                  "relatedStatements": [
-                    {
-                      "backtrace": [
-                        {
-                          "line": 8,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    },
-                    {
-                      "backtrace": [
-                        {
-                          "line": 9,
-                          "name": "include_directories",
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        },
-                        {
-                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
-                        }
-                      ],
-                      "type": "target_include_directories"
-                    }
-                  ]
-                },
-                "fileGroups": [
-                  {
-                    "isGenerated": true,
-                    "sources": [
                       "build/CMakeFiles/NightlyMemCheck",
                       "build/CMakeFiles/NightlyMemCheck.rule"
                     ]
@@ -2002,6 +1124,294 @@
                   {
                     "isGenerated": true,
                     "sources": [
+                      "build/CMakeFiles/NightlyCoverage",
+                      "build/CMakeFiles/NightlyCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyCoverage",
+                "name": "NightlyCoverage",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalCoverage",
+                      "build/CMakeFiles/ExperimentalCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalCoverage",
+                "name": "ExperimentalCoverage",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalStart",
+                      "build/CMakeFiles/ExperimentalStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalStart",
+                "name": "ExperimentalStart",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalMemCheck",
+                      "build/CMakeFiles/ExperimentalMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalMemCheck",
+                "name": "ExperimentalMemCheck",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
                       "build/CMakeFiles/ExperimentalConfigure",
                       "build/CMakeFiles/ExperimentalConfigure.rule"
                     ]
@@ -2009,6 +1419,366 @@
                 ],
                 "fullName": "ExperimentalConfigure",
                 "name": "ExperimentalConfigure",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalSubmit",
+                      "build/CMakeFiles/ExperimentalSubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalSubmit",
+                "name": "ExperimentalSubmit",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyConfigure",
+                      "build/CMakeFiles/NightlyConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyConfigure",
+                "name": "NightlyConfigure",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousUpdate",
+                      "build/CMakeFiles/ContinuousUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousUpdate",
+                "name": "ContinuousUpdate",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalTest",
+                      "build/CMakeFiles/ExperimentalTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalTest",
+                "name": "ExperimentalTest",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousStart",
+                      "build/CMakeFiles/ContinuousStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousStart",
+                "name": "ContinuousStart",
                 "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
               },
@@ -2218,13 +1988,13 @@
                   {
                     "isGenerated": true,
                     "sources": [
-                      "build/CMakeFiles/ContinuousTest",
-                      "build/CMakeFiles/ContinuousTest.rule"
+                      "build/CMakeFiles/ContinuousCoverage",
+                      "build/CMakeFiles/ContinuousCoverage.rule"
                     ]
                   }
                 ],
-                "fullName": "ContinuousTest",
-                "name": "ContinuousTest",
+                "fullName": "ContinuousCoverage",
+                "name": "ContinuousCoverage",
                 "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
               },
@@ -2299,13 +2069,243 @@
                 "name": "ContinuousSubmit",
                 "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
                 "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousTest",
+                      "build/CMakeFiles/ContinuousTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousTest",
+                "name": "ContinuousTest",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/huoyushi/Documents/GUGAODAQ/build/bin/DAQ.exe",
+                  "C:/Users/huoyushi/Documents/GUGAODAQ/build/bin/libDAQ.dll.a",
+                  "C:/Users/huoyushi/Documents/GUGAODAQ/build/bin/DAQ.pdb"
+                ],
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 10,
+                      "name": "add_executable",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 11,
+                          "name": "target_link_libraries",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_link_libraries"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/huoyushi/Documents/GUGAODAQ/NetSocket"
+                      },
+                      {
+                        "path": "C:/Users/huoyushi/Documents/GUGAODAQ/JsonUtils"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "DAQ.exe",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "bin\\libNetSocket.dll.a bin\\libJsonUtils.dll.a -lWS2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+                "linkerLanguage": "CXX",
+                "name": "DAQ",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ/build",
+                "crossReferences": {
+                  "backtrace": [
+                    {
+                      "line": 74,
+                      "name": "add_custom_target",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTestTargets.cmake"
+                    },
+                    {
+                      "line": 264,
+                      "name": "include",
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "path": "C:/CMake/share/cmake-3.10/Modules/CTest.cmake"
+                    },
+                    {
+                      "line": 4,
+                      "name": "include",
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    },
+                    {
+                      "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                    }
+                  ],
+                  "relatedStatements": [
+                    {
+                      "backtrace": [
+                        {
+                          "line": 8,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    },
+                    {
+                      "backtrace": [
+                        {
+                          "line": 9,
+                          "name": "include_directories",
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        },
+                        {
+                          "path": "C:/Users/huoyushi/Documents/GUGAODAQ/CMakeLists.txt"
+                        }
+                      ],
+                      "type": "target_include_directories"
+                    }
+                  ]
+                },
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousBuild",
+                      "build/CMakeFiles/ContinuousBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousBuild",
+                "name": "ContinuousBuild",
+                "sourceDirectory": "C:/Users/huoyushi/Documents/GUGAODAQ",
+                "type": "UTILITY"
               }
             ]
           }
         ]
       }
     ],
-    "cookie": "0.5673428879319073",
+    "cookie": "0.32384544812443505",
     "inReplyTo": "codemodel",
     "type": "reply"
   }

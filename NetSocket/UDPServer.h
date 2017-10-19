@@ -45,12 +45,13 @@ protected:
     char RecvBuffer[65536];
     SOCKET sudpServer=INVALID_SOCKET;
     WSADATA wsaData;
+    WSAEVENT wsaEvent=WSA_INVALID_EVENT;
     short port;
 public:
 
      UDPServer(short port);
      bool Initialized();
-     void AsyncInitialized();
+     bool AsyncInitialized();
      void Work();
      void AsyncWork();
      void CloseSocket();

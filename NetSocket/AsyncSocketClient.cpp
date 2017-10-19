@@ -7,7 +7,6 @@ bool huoyushi::AsyncSocketClient::AsyncInitialized()
     Initialized(true);
     this->wsaEvent = ::WSACreateEvent();
     ::WSAEventSelect(this->sClient, this->wsaEvent, FD_READ | FD_WRITE | FD_CLOSE);
-    return true;
 #endif
 }
 
@@ -16,7 +15,7 @@ void huoyushi::AsyncSocketClient::AsyncWork()
 #ifdef _WIN32
     while (true)
     {
-        int nRet = ::WSAWaitForMultipleEvents(1, &wsaEvent, FALSE, 100000, FALSE);
+        int nRet = ::WSAWaitForMultipleEvents(1, &wsaEvent, FALSE, 50000, FALSE);
         if (nRet == WAIT_FAILED) //失败
         {
             printf("faild WSAWaitForMultipleEvents\n");

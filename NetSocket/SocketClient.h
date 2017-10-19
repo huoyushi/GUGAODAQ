@@ -42,13 +42,13 @@ namespace huoyushi
   const int SENDBUFSIZE=4096;
 struct MsgHeader
 {
-  char Address[8] = {0};
-  char Cmd[2] = {0};
-  char Len[2] = {0};
-  char CmdType = 0x06;
-  char Checksum = 0x00;
-  char Sure = 0xD5;
-  char Rsv = 0x00;
+  unsigned char Address[8] = {0};
+  unsigned char Cmd[2]={0};
+  unsigned char Len[2]={0};
+  unsigned char CmdType = 0x06;
+  unsigned char Checksum = 0x00;
+  unsigned char Sure = 0xD5;
+  unsigned char Rsv = 0x00;
 };
 class SocktClient;
 }

@@ -10,17 +10,18 @@ huoyushi::SocktClient::SocktClient(short offset,const string hostaddres, unsigne
 }
 int  huoyushi::SocktClient::CaculateCheckSum()
 {
-
+   
     if(!huoyushi::JsonUtils::checkJsonPattern(this->SendBuffer,this->offset))
     {
        printf("error cmd\n");
         return -1;
     }
     short len=strlen(SendBuffer+offset)-1;
-    printf("len:%d\n",len);
-    header.Len[0]=len>>8;
-    header.Len[1]=len&0xFF;
-    char checksum=0;
+    if(len<=0)return 0;
+    header.Checksum=0x00;
+    header.Len[1]=(byte)(len&0x00FF);
+    header.Len[0]=(byte)len>>8;
+    unsigned char checksum=0x00;
     byte* p=(byte*)&header;
     for(int i=0;i<16;i++){
         checksum+=*p;
@@ -95,8 +96,9 @@ void huoyushi::SocktClient::Work(){
         int len=this->CaculateCheckSum();
         //向服务器发送消息
         
-       
+        if(len>0)
         ret = send(sClient ,SendBuffer,len,0);
+        else continue;
         
         if (ret == 0) {
            printf("break\n");
